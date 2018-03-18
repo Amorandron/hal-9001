@@ -1,0 +1,93 @@
+## ENVIRONMENT
+# CMake
+install_manifest.txt
+compile_commands.json
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+
+# Output directory
+bin/
+release/
+
+# Make
+Makefile
+
+# Visual C++
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# IntelliJ
+.idea/
+
+# CLion
+cmake-build-debug/
+cmake-build-release/
+
+# Visual Studio Code
+.vscode/
+.history
+
+# Visual Studio
+.vs/
+
+# Vim
+Session.vim
+
+# Kate
+.*.kate-swp
+.swp.*
+
+## OS SPECIFIC
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# KDE
+.directory
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Third party libraries
+thirdparty/*/*
+
+## C++ SPECIFIC
+# Objects
+*.slo
+*.lo
+*.o
+*.obj
+
+# Headers
+*.gch
+*.pch
+
+# Dynamic Libraries
+*.so
+*.dll
+
+# Static Libraries
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# Ninja
+.ninja_deps
+.ninja_log
